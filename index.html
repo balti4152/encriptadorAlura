@@ -5,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
-    <h1>holaAA</h1>
+   
+    <h1>Encriptador de texto</h1>
+    <div class="container">
+    <input id="entrada-texto" class="entrada-texto" placeholder="Ingrese el texto a encriptar" type="text">
+  
+
+
+    <div class="salida-texto">
+    <textarea placeholder="Su texto encriptado aparecerá aqui!" class="salida-textarea"  id="salida-textarea"name="" id="" cols="30" rows="10"> </textarea>
+<button id="btn-copiar" onclick="botonCopiar() " class="btn-copiar">Copiar</button>
+<img class="ilustracion" id="ilustracion" src="img/Curious analyst investigating question mark with magnifier.jpg" alt="">
+<p id="title" class="title">No se encontro ningun mensaje!</p>
+<P id="subtitle" class="subtitle">Ingresa el texto que quieras encriptar o desencriptar</P>
+</div>
+
+<div class="botones">
+    <button onclick="botonEncriptar()" class="btn-encriptar">Encriptar!</button>
+    <button onclick="botonDesencriptar()" class="btn-desencriptar">Desencriptar!</button>
+    </div>
+
+<script src="lowercase.js"></script>
+    </div>
+
+
 </body>
 </html>

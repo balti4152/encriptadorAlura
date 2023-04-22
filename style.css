@@ -58,7 +58,7 @@ body
 .salida-textarea,
  .salida-texto button
 {
-	margin-top: 20px;
+	margin-top: 0px;
 }
 .salida-textarea
 {
@@ -339,7 +339,7 @@ body
 	}
 	.salida-texto
 	{
-		margin-top: 50px;
+		margin-top: 20px;
 		width: 90%;
 	}
 	.copiado

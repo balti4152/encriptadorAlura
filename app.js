@@ -48,8 +48,20 @@ function botonCopiar() {
     let texto = document.getElementById("salida-textarea");
   texto.select();
   document.execCommand("copy");
+
+
+
+
+  document.getElementById("copiado").style.display = "block";
+
+  setTimeout(() => {
+    document.getElementById("copiado").style.display = "none";
+  }, 2000);
     
 }
+
+
+
   
 
 
